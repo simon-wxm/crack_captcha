@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<div id="container">
+			<img src="img/fengche.png" class="fengche"  id="fengche"/>
+
+		</div>
+		<script type="text/javascript">
+			onload = function(){
+				var fengche = document.getElementById('fengche')
+				fengche.onmouseenter = function(){
+					fengche.className = 'fengche_reverse'
+				}
+				fengche.onmouseleave = function(){fengche.className = 'fengche'}
+			}
+		</script>
+	</body>
+</html>
